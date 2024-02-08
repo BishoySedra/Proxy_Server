@@ -1,0 +1,21 @@
+{
+  "name": "proxy_server",
+  "version": "1.0.0",
+  "description": "Proxy server, that can recieve request_url, headers and body from the client, handle the API request, and give the response data back to the client",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "needle": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
